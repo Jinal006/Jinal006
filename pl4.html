@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>pract 4</title>
+    <script>
+        let j = prompt("Enter a Number:");
+        let cnt = 0;
+        if (j <= 1) {
+            document.write("This number is Not Prime Number");
+        }
+
+        else {
+            for (let i = 1; i < j; i++) {
+                if (j % i === 0) {
+
+                    document.write("YOUR NUMBER=" + j % i + "<br>");
+                    cnt++;
+
+                }
+            }
+        }
+        if (cnt > 2) {
+            document.write("This Number is Not Prime Number " + j);
+        }
+        else {
+            document.write("This Number is Prime Number " + j);
+        }
+
+
+        // 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89 and 97.
+
+
+
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
